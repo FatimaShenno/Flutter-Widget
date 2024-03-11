@@ -1,4 +1,4 @@
-import 'package:every_flutter_widget/widget_flutter/example/example4.dart';
+import 'package:every_flutter_widget/widget_flutter/example/value_listenable_builder.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Example4(),
+      home: ValueListenableBuilderExample(),
     );
   }
 }

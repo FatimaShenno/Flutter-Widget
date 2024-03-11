@@ -28,7 +28,7 @@ class _Example4State extends State<Example4>
     _controller =
         AnimationController(duration: const Duration(seconds: 2), vsync: this)
           ..repeat();
-    _animation = Tween(begin: 0.5, end: 1.0)
+    _animation = Tween(begin: -0.5, end: 1.5)
         .animate(CurvedAnimation(parent: _controller, curve: Curves.easeInOut));
   }
 
@@ -63,7 +63,6 @@ class _Example4State extends State<Example4>
                             Colors.black,
                             Colors.white,
                             _controller.value,
-                            //  _controller.value,
                           ),
                         ),
                       );
